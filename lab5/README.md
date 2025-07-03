@@ -24,9 +24,9 @@ Các phép biến đổi này thay đổi vị trí, kích thước hoặc hình
 | Phép biến đổi         | Ý nghĩa                                                  | Công thức toán học                                          | Ví dụ đơn giản                               |
 |-----------------------|-----------------------------------------------------------|--------------------------------------------------------------|----------------------------------------------|
 | **Coordinate Mapping**| Ánh xạ lại điểm ảnh, ví dụ đảo ngược màu                 | `I'(x, y) = 255 - I(x, y)`                            | Chuyển vùng sáng → vùng tối và ngược lại     |
-| **Rotate**            | Xoay ảnh quanh tâm                                       | `![Rotate formula]`(https://latex.codecogs.com/png.image?\dpi{120}&space;M=\begin{bmatrix}\cos\theta&-\sin\theta&t_x\\\sin\theta&\cos\theta&t_y\end{bmatrix}) | Xoay ảnh 45° theo chiều kim đồng hồ         |
+| **Rotate**            | Xoay ảnh quanh tâm                                       | ![Rotate formula](https://latex.codecogs.com/png.image?\dpi{120}&space;M=\begin{bmatrix}\cos\theta&-\sin\theta&t_x\\\sin\theta&\cos\theta&t_y\end{bmatrix}) | Xoay ảnh 45° theo chiều kim đồng hồ         |
 | **Scale**             | Phóng to hoặc thu nhỏ ảnh                                | `I'(x, y) = I(s_x * x, s_y * y)`               | Giảm kích thước ảnh xuống còn 50%            |
-| **Shift**             | Tịnh tiến ảnh theo trục x và y                           | `![Shift formula]`(https://latex.codecogs.com/png.image?\dpi{120}&space;M=\begin{bmatrix}1&0&\Delta%20x\\0&1&\Delta%20y\end{bmatrix})  | Dời ảnh sang phải và xuống 50 pixels        |
+| **Shift**             | Tịnh tiến ảnh theo trục x và y                           | ![Shift formula](https://latex.codecogs.com/png.image?\dpi{120}&space;M=\begin{bmatrix}1&0&\Delta%20x\\0&1&\Delta%20y\end{bmatrix})  | Dời ảnh sang phải và xuống 50 pixels        |
 
 ---
 
