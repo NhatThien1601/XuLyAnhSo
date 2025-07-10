@@ -60,7 +60,7 @@ Hiển thị ảnh thể hiện các biên sáng tối — nơi có sự thay đ
 a = nd.sobel(data, axis=0)
 - Ý nghĩa : phát hiện biên theo chiều dọc (thay đổi theo hàng) /chiều ngang (thay đổi theo cột)
 - Công thức: Toán tử Sobel theo trục x, y
-![Sobel Math]('sobel_math.jpeg')
+![Sobel Math]('[sobel_math.jpeg](https://wikimedia.org/api/rest_v1/media/math/render/svg/7c805c831d304af433d5ec82423cf16cf78fa408)')
 3. Tổng độ lớn đạo hàm để tạo ảnh biên
 bmg = abs(a) + abs(b)
 - Kết hợp biên theo cả hai hướng để tạo ảnh biên tổng hợp.
@@ -81,7 +81,7 @@ def Harris(indata, alpha=0.2):
 2. Tính các tích đạo hàm
 - Ý nghĩa: Tính các thành phần của ma trận cấu trúc (structure tensor).
 - Công thức : 
-![M]('tichdaoham.png')
+`𝑀=[𝐼𝑥2 𝐼𝑥𝐼𝑦/𝐼𝑥𝐼𝑦 𝐼𝑦2]`
 3. Làm mượt bằng bộ lọc Gaussian
 - Làm mượt các thành phần của ma trận M để giảm nhiễu.
 4. Tính giá trị phản hồi Harris
